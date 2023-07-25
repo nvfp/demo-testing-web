@@ -1,0 +1,31 @@
+# TypeScript
+*.tsbuildinfo
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build output
+/dist/
+
+# Node.js
+/node_modules/
+
+# Dependency directories
+/bin/
+/lib/
+/build/
+
+# Logs and debugging
+*.log
+debug.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
