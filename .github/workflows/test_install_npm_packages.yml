@@ -5,7 +5,7 @@ on:
       names:
         description: names
         required: true
-  push:
+  # push:
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -14,4 +14,4 @@ jobs:
       # - uses: actions/setup-node@v3
       #   with:
       #     node-version: 18
-      - run: npm install jest
+      - run: npm install ${{ inputs.names }}
