@@ -15,3 +15,11 @@ jobs:
       #   with:
       #     node-version: 18
       - run: npm install ${{ inputs.names }}
+      - run: |
+          packages="${{ inputs.names }}"
+
+          for package in $packages; do
+            echo "Package: $package"
+            npm show $package
+            echo "--------------------------------"
+          done
