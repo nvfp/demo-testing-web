@@ -1,3 +1,3 @@
-import { greet } from 'wondering/src/foo/index';
+import { greet } from 'wondering/src/foo';
 
 greet('John')
