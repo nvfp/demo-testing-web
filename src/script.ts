@@ -1,2 +1,2 @@
-import { testabc } from "wondering/dist"
-console.log(testabc)
+import { abc } from "./foo";
+console.log(abc)

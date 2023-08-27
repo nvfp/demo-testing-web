@@ -1,1 +1,1 @@
-export const abc=3
+export const abc = 3;
