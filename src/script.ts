@@ -1,2 +1,2 @@
-import { abc } from "./foo";
-console.log(abc)
+import { abc } from "./foo.js";
+console.log(abc);

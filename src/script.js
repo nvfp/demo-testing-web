@@ -1,2 +1,2 @@
-import { abc } from "src/foo";
+import { abc } from "./foo.js";
 console.log(abc);
